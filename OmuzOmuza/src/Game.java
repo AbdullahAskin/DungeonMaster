@@ -108,7 +108,7 @@ public class Game extends Canvas implements Runnable {
         }
         Graphics g = bs.getDrawGraphics();
         screen.clear();
-        xScroll = (int) player.x - screen.width / 2;
+        xScroll = (int) player.x - screen.width / 2; // Düşündüğümüz şeylerin tersini yapıyoruz çünkü xScroll toplanmıyor çıkarılıyor.
         yScroll = (int) player.y - screen.height / 2;
         level.render(xScroll, yScroll, screen);
 //        for (int i = 0; i < pixels.length; i++) {
