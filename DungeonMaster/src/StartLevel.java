@@ -9,11 +9,11 @@ public class StartLevel extends LvlLevel {
 
     public StartLevel(String path) {
         super(path);
-//        add(new Machine(9, 14));
-//        add(new Machine(15, 14));
-//        add(new Machine(25, 14));
-//        add(new DummyZombie(9, 9));
 
+        add(new Machine(9, 14));
+        add(new Machine(15, 14));
+        add(new Machine(25, 14));
+        add(new DummyZombie(9, 9));
     }
 
     public void loadLevel(String path) {

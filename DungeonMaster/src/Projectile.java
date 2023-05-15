@@ -6,7 +6,7 @@ public class Projectile extends Entity {
     protected Sprite sprite;
     protected double x, y;
     protected int range = 50;
-//    protected double xFrictionalForce;    Şimdilik eklenmedi.
+//    protected double xFrictionalForce;
 //    protected double yFrictionalForce;
 
     public Projectile(int x, int y) {

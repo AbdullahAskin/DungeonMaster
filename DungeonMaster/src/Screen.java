@@ -86,7 +86,7 @@ public class Screen {
         int remainingHp = 0;
         if (e instanceof Machine) {
             remainingHp = ((Machine) e).remainingHp;
-            yp -= 6;            //Canın doğru konumda olması için yapılan ayarlama
+            yp -= 6;
         }
         xp -= xOffset;
         yp -= yOffset;
@@ -117,7 +117,7 @@ public class Screen {
                 if (xa < -p.getSpriteSize() || xa >= width || ya < 0 || ya >= height) {
                     break;
                 }
-                if (xa < 0) { // Burasının tam olarak ne yaptıgını bul
+                if (xa < 0) {
                     xa = 0;
                 }
 
@@ -139,7 +139,7 @@ public class Screen {
                 if (xa < -p.getSpriteSize() || xa >= width || ya < 0 || ya >= height) {
                     break;
                 }
-                if (xa < 0) { // Burasının tam olarak ne yaptıgını bul
+                if (xa < 0) {
                     xa = 0;
                 }
                 int disappear = LvlLevel.rand.nextInt(disappearRate);
@@ -220,7 +220,7 @@ public class Screen {
                 if (xa < -width || xa >= this.width || ya < 0 || ya >= this.height) {
                     continue;
                 }
-                pixels[xa + ya * width] = 0xffffff;  // Canın kırmızı ve yeşil kısmını oluştur.
+                pixels[xa + ya * width] = 0xffffff;
 
             }
         }

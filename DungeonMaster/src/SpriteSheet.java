@@ -27,7 +27,7 @@ public class SpriteSheet {
             int h = image.getHeight();
             image.getRGB(0, 0, w, h, pixels, 0, w);
         } catch (IOException ıo) {
-            System.out.println("SpriteSheet Load'da sıkıntı var.");
+            System.out.println("SpriteSheet Load Error");
         }
     }
 

@@ -79,7 +79,7 @@ public class Game extends Canvas implements Runnable {
         double delta = 0;
         while (running) {
             long now = System.nanoTime();
-            delta += (now - lastTime) / ns; // 1 dönügüde gecen zamanı 60 ile çarpmakla aynı şeydir.
+            delta += (now - lastTime) / ns;
             lastTime = now;
             if (delta >= 1) {
                 lastTime = System.nanoTime();
@@ -108,7 +108,7 @@ public class Game extends Canvas implements Runnable {
         }
         Graphics g = bs.getDrawGraphics();
         screen.clear();
-        xScroll = (int) player.x - screen.width / 2; // Düşündüğümüz şeylerin tersini yapıyoruz çünkü xScroll toplanmıyor çıkarılıyor.
+        xScroll = (int) player.x - screen.width / 2;
         yScroll = (int) player.y - screen.height / 2;
         level.render(xScroll, yScroll, screen);
 //        for (int i = 0; i < pixels.length; i++) {
@@ -176,7 +176,5 @@ public class Game extends Canvas implements Runnable {
         game.jframe.setLocationRelativeTo(null);
 
         game.start();
-
     }
-
 }
