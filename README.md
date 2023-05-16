@@ -3,8 +3,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Zombie Runner is an exciting and challenging action game where you play as a survivor in a world overrun by zombies. As you run through the streets, you must avoid obstacles, collect resources, and fend off hordes of undead. The game features multiple levels and weapons, and players must use their skills and strategy to survive as long as possible.
+This project is a strategy-based dungeon game designed for a single player. No external game engine, framework, or library was used in this project. Implemented the rendering of all the pixels and the window functionality from scratch.
 
-<img src="Images/ref_1.jpg" width="280" height="500">      <img src="Images/ref_2.jpg" width="280" height="500">
 
-<img src="Images/ref_3.jpg" width="280" height="500">      <img src="Images/ref_4.jpg" width="280" height="500">
+<img src="images/ref_1.png" width="720" height="424">  
+
+<img src="images/ref_2.png" width="720" height="424">
+
+<img src="images/ref_3.png" width="720" height="424">     
+
+<img src="images/ref_4.png" width="720" height="424">
