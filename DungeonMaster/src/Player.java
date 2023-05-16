@@ -14,10 +14,10 @@ public class Player extends Mob {
         this.input = input;
         this.level = LvlLevel.map_1;
         ui = Game.uiManager;
-        UIPanel panel = new UIPanel(new Vector2i(220 * 3, 0), new Vector2i(80 * 3, 168 * 3), new Color(0xf0fffff, true));
-        UILabel nameLabel = new UILabel(new Vector2i(220 * 3, 0), new Vector2i(40, 200), new java.awt.Font("Verdana", java.awt.Font.PLAIN, 24), new Color(0xbbbbbb), "émilié");
-        panel.add(nameLabel);
-        ui.add(panel);
+//        UIPanel panel = new UIPanel(new Vector2i(220 * 3, 0), new Vector2i(80 * 3, 168 * 3), new Color(0xf0fffff, true));
+//        UILabel nameLabel = new UILabel(new Vector2i(220 * 3, 0), new Vector2i(40, 200), new java.awt.Font("Verdana", java.awt.Font.PLAIN, 24), new Color(0xbbbbbb), "émilié");
+//        panel.add(nameLabel);
+//        ui.add(panel);
     }
 
     public void render(Screen screen) {
